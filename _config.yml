@@ -3,18 +3,18 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
-email: zourenyuan@gmail.com
-description: A simple and awesome blog theme powered by jekyll.
-url: https://renyuanz.github.io/leonids # the base hostname & protocol for your site
-keywords: ["Programming", "PHP", "Ruby"]
+title: Закат
+email: cbrwizard@gmail.com
+description: Сайт об интерактивной книге Закат
+url: http://zakatinteractive.ru
+keywords: ["Закат", "Игра", "книга", "интерактивная книга", "choose your own adventure"]
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          UTC
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,24 +33,24 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
-  job: "PHP & Ruby Developer"
-  bio: "A backend developer who loves design awesome things. Working for RendezvousCheznous atm in Marseille, France."
-  email: zourenyuan@gmail.com
-  disqus-shortname: renyuanzblog
-  twitter: renyuan814 #username
-  facebook: #username
+  name: Закат
+  avatar: logo.png
+  job: "Добро пожаловать в ваш Закат."
+  bio: "Интерактивная книга с голосовым режимом на русском языке, дающая читателю как и увлекательную историю с продуманными персонажами, так и право выбирать, как дальше будут развиваться события."
+  email: cbrwizard@gmail.com
+  disqus-shortname: zakatru
+  twitter: zakatru #username
+  facebook: zakatinteractive #username
   google:
     plus: #username
-    analytics: UA-62251910-2
+    analytics: UA-114510857-1
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: renyuanz #username
+  github: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: renyuan-zou-69b7038a #username
+  linkedin:  #username
   xing: #username
   instagram: #username
   lastfm: #username
