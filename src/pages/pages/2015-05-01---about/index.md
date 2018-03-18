@@ -1,13 +1,20 @@
 ---
-title: "About me"
+title: "О книге"
 layout: page
 path: "/about"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+Закат - это интерактивная книга с голосовым режимом на русском языке, дающая читателю как и увлекательную историю с продуманными персонажами, так и право выбирать, как дальше будут развиваться события.
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](./1.jpg)
+Альтернативная Россия после революции, недалёкое будущее. Агент ФСБ из подразделения Безликих отправлен на задание найти пропавшего коллегу. Он перестал выходить на связь во время слежки за богатым американцем, который строит около Новосибирска новый город. Там же американец основал религию, обогащающую её последователей. Безликому предстоит разобраться в происходящем и отличить правду от умысла, а друга - от врага.
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+* История, полная тёмных тайн и лжи, непредсказуемых персонажей и сложных выборов.
+* Что наступит в конце Заката - решать лишь вам.
+* Повлияйте на написание книги! Через некоторое время после выхода интерактивной игры будет выпущен бумажный вариант книги с тем сюжетом, который чаще всего выбирали игроки в интерактивной версии. В книге также будут работы профессионального художника.
+* Контролируй игру голосом! В игре будет голосовой режим, который позволит вам сфокусироваться глазами на прогулке, уборке или вождении.
+* Понятный простой интерфейс и интересные геймплейные решения.
+* Статистика выбора игроков: как часто вы принимаете те же решения, что и остальные? Вы узнаете себя лучше.
+* Многие часы захватывающей мрачной атмосферы.
+* Выйдет на мобильных устройствах и ПК.
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+Игра создаётся в одиночку писателем-программистом, имеющий за своими плечами пару выпущенных рассказов, несколько выпущенных проектов и многие годы работы. Ожидаете скоро!
