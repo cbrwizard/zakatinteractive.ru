@@ -1,32 +1,29 @@
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
+    url: 'http://www.zakatinteractive.ru',
     title: 'Закат',
     subtitle: 'Интерактивная книга с голосовым режимом на русском языке, дающая читателю как и увлекательную историю с продуманными персонажами, так и право выбирать, как дальше будут развиваться события.',
-    copyright: '© All rights reserved.',
+    copyright: '',
     disqusShortname: '',
     menu: [
       {
-        label: 'Articles',
+        label: 'Новости',
         path: '/'
       },
       {
-        label: 'About me',
+        label: 'О книге',
         path: '/about/'
       },
-      {
-        label: 'Contact me',
-        path: '/contact/'
-      }
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#'
+      name: 'Закат',
+      email: 'cbrwizard@protonmail.com',
+      telegram: 'cbrwizard',
+      twitter: 'zakatru',
+      github: 'cbrwizard',
+      facebook: 'zakatinteractive',
+      vk: 'zakatinteractive',
+      rss: '#'
     }
   },
   plugins: [

@@ -3,7 +3,7 @@ import get from 'lodash/get';
 import Link from 'gatsby-link';
 import Menu from '../Menu';
 import Links from '../Links';
-import profilePic from '../../pages/photo.jpg';
+import logo from './logo.png'
 import './style.scss';
 
 class Sidebar extends React.Component {
@@ -17,10 +17,8 @@ class Sidebar extends React.Component {
       <div>
         <Link to="/">
           <img
-            src={profilePic}
+            src={logo}
             className="sidebar__author-photo"
-            width="75"
-            height="75"
             alt={author.name}
           />
         </Link>
@@ -34,6 +32,7 @@ class Sidebar extends React.Component {
           </h2>
         }
         <p className="sidebar__author-subtitle">{subtitle}</p>
+        <a href="https://www.patreon.com/cbrwizard" target="_blank">Поддержи меня на Patreon!</a>
       </div>
     );
     /* eslint-enable jsx-a11y/img-redundant-alt */

@@ -10,7 +10,7 @@ class Links extends React.Component {
       twitter: author.twitter,
       github: author.github,
       vk: author.vk,
-      rss: author.rss,
+      facebook: author.facebook,
       email: author.email
     };
 
@@ -23,13 +23,13 @@ class Links extends React.Component {
             </a>
           </li>
           <li className="links__list-item">
-            <a href={`https://www.github.com/${links.github}`} target="_blank" >
-              <i className="icon-github" />
+            <a href={`https://www.vk.com/${links.vk}`} target="_blank" >
+              <i className="icon-vkontakte" />
             </a>
           </li>
           <li className="links__list-item">
-            <a href={`https://www.vk.com/${links.vk}`} target="_blank" >
-              <i className="icon-vkontakte" />
+            <a href={`https://www.facebook.com/${links.facebook}`}>
+              <i className="icon-facebook" />
             </a>
           </li>
         </ul>
@@ -44,11 +44,9 @@ class Links extends React.Component {
               <i className="icon-paper-plane" />
             </a>
           </li>
-        </ul>
-        <ul className="links__list">
           <li className="links__list-item">
-            <a href={links.rss}>
-              <i className="icon-rss" />
+            <a href={`https://www.github.com/${links.github}`} target="_blank" >
+              <i className="icon-github" />
             </a>
           </li>
         </ul>
