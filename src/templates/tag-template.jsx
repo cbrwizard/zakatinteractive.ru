@@ -10,7 +10,7 @@ class TagTemplate extends React.Component {
 
     return (
       <div>
-        <Helmet title={`All Posts tagged as "${tag}" - ${title}`} />
+        <Helmet title={`Все посты с тэгом "${tag}" - ${title}`} />
         <Sidebar {...this.props} />
         <TagTemplateDetails {...this.props} />
       </div>

@@ -76,20 +76,15 @@
             padding: 0;
             &-item {
                 display: inline-block;
-                margin: 10px 5px;
+                margin: 10px 10px 10px 0;
                 &-link {
-                    background: $color-gray-bg;
-                    text-decoration: none;
-                    border: 0;
                     border-radius: 3px;
-                    color: lighten($color-base, 20%);
-                    line-height: $typographic-base-line-height;
                     padding: 8px 16px;
+                    transition: all 0.2s;
                     &:hover,
                     &:focus {
-                        color: $color-base;
-                        background: darken($color-gray-bg, 5%);
-                        border: 0;
+                        background: $color-primary;
+                        color: $background-color;
                     }
                 }
             }
@@ -104,16 +99,14 @@
         height: 35px;
         line-height: 35px;
         text-align: center;
-        color: lighten($color-base, 20%);
-        background: $color-gray-bg;
         font-weight: 400;
         border-radius: 3px;
+        transition: all 0.2s;
         @include margin-top(1);
         &:hover,
         &:focus {
-            color: $color-base;
-            background: darken($color-gray-bg, 5%);
-            border: 0;
+            background: $color-primary;
+            color: $background-color;
         }
     }
 }

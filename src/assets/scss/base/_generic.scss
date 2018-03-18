@@ -1,4 +1,4 @@
-/** 
+/**
  * Generic
  */
 
@@ -16,6 +16,7 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: $background-color;
 }
 
 h1,
@@ -148,7 +149,7 @@ figcaption {
 
 .content {
     &__inner {
-        padding: 25px 20px;
+        padding: 15px 10px 0;
     }
 }
 
@@ -167,7 +168,7 @@ figcaption {
     .content {
         lost-column: 7/12;
         &__inner {
-            padding: 30px 20px;
+            padding: 15px 10px 0;
         }
     }
 }

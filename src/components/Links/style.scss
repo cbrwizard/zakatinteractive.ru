@@ -16,18 +16,20 @@
             line-height: 24px;
             border-radius: 3px;
             text-align: center;
-            background: $color-gray-bg;
+            transition: all 0.2s;
+            &:hover,
+            &:focus {
+                background: $color-gray-bg;
+              & i {
+                  color: $background-color;
+              }
+            }
             & a {
                 border: 0;
                 & i {
+                    transition: all 0.2s;
                     font-size: 14px;
-                    color: lighten($color-base, 20%);
-                }
-                &:hover,
-                &:focus {
-                    & i {
-                        color: $color-base;
-                    }
+                    color: $color-primary;
                 }
             }
         }
