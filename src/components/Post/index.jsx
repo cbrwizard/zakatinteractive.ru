@@ -1,9 +1,14 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import moment from 'moment';
+import 'moment/locale/ru'
 import './style.scss';
 
 class Post extends React.Component {
+  componentDidMount() {
+    moment.locale('ru')
+  }
+
   render() {
     const { title, date, category, description } = this.props.data.node.frontmatter;
     const { slug, categorySlug } = this.props.data.node.fields;
@@ -25,7 +30,7 @@ class Post extends React.Component {
           <Link className="post__title-link" to={slug}>{title}</Link>
         </h2>
         <p className="post__description">{description}</p>
-        <Link className="post__readmore" to={slug}>Read</Link>
+        <Link className="post__readmore" to={slug}>Подробнее</Link>
       </div>
     );
   }
