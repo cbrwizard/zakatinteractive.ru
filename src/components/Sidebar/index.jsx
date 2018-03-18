@@ -32,7 +32,7 @@ class Sidebar extends React.Component {
           </h2>
         }
         <p className="sidebar__author-subtitle">{subtitle}</p>
-        <a href="https://www.patreon.com/cbrwizard" target="_blank">Поддержи меня на Patreon!</a>
+        <a href="https://www.patreon.com/cbrwizard" target="_blank">Поддержи автора на Patreon!</a>
       </div>
     );
     /* eslint-enable jsx-a11y/img-redundant-alt */
