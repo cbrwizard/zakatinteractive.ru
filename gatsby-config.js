@@ -1,7 +1,8 @@
+const title = 'Закат'
 module.exports = {
   siteMetadata: {
     url: 'http://www.zakatinteractive.ru',
-    title: 'Закат',
+    title,
     subtitle: 'Интерактивная книга с голосовым режимом на русском языке, дающая читателю как и увлекательную историю с продуманными персонажами, так и право выбирать, как дальше будут развиваться события.',
     copyright: '',
     disqusShortname: 'zakatru',
@@ -173,9 +174,67 @@ module.exports = {
           })
       }
     },
-    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: title,
+        short_name: title,
+        start_url: "/",
+        background_color: "#180500",
+        theme_color: "#FEC051",
+        display: "minimal-ui",
+        icons: [
+          {
+            src: `/favicons/android-chrome-36x36.png`,
+            sizes: `36x36`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/android-chrome-48x48.png`,
+            sizes: `48x48`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/android-chrome-72x72.png`,
+            sizes: `72x72`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/android-chrome-96x96.png`,
+            sizes: `96x96`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/android-chrome-144x144.png`,
+            sizes: `144x144`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/android-chrome-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/android-chrome-256x256.png`,
+            sizes: `256x256`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/android-chrome-384x384.png`,
+            sizes: `384x384`,
+            type: `image/png`,
+          },
+          {
+            src: `/favicons/android-chrome-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`,
+          },
+        ],
+      },
+    },
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-postcss-sass',
+    'gatsby-plugin-offline',
   ]
 };
