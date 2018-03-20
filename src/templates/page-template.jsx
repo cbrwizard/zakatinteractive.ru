@@ -14,6 +14,7 @@ class PageTemplate extends React.Component {
         <Helmet>
           <title>{`${pageTitle} - ${title}`}</title>
           <meta name="description" content={description} />
+          <html lang="ru" />
         </Helmet>
         <PageTemplateDetails {...this.props} />
       </div>
