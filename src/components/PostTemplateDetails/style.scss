@@ -109,6 +109,9 @@
             color: $background-color;
         }
     }
+    .emailForm {
+        margin: 35px auto;
+    }
 }
 
 @include breakpoint-sm {

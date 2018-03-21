@@ -1,9 +1,12 @@
 import React from 'react';
+import addToMailchimp from 'gatsby-plugin-mailchimp'
 import get from 'lodash/get';
 import Link from 'gatsby-link';
+
 import Menu from '../Menu';
 import Links from '../Links';
 import logo from './logo.png'
+import EmailForm from '../EmailForm'
 import './style.scss';
 
 class Sidebar extends React.Component {
@@ -32,7 +35,6 @@ class Sidebar extends React.Component {
           </h2>
         }
         <p className="sidebar__author-subtitle">{subtitle}</p>
-        <a href="https://www.patreon.com/cbrwizard" target="_blank">Поддержи автора на Patreon!</a>
       </div>
     );
     /* eslint-enable jsx-a11y/img-redundant-alt */
@@ -42,6 +44,9 @@ class Sidebar extends React.Component {
         <div className="sidebar__inner">
           <div className="sidebar__author">
             {authorBlock}
+          </div>
+          <div className="sidebar__email">
+            <EmailForm/>
           </div>
           <div>
             <Menu data={menu} />

@@ -1,0 +1,46 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.emailForm {
+  margin: 10px auto;
+  max-width: 300px;
+  form {
+    border-bottom: 1px solid $color-base;
+    padding: 15px 5px;
+    margin: 0 0 15px;
+    border-top: 1px solid $color-base;
+  }
+  input[type="email"] {
+    width: 100%;
+    padding: 7px 5px;
+    border: 1px solid $color-base;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background: none;
+    color: $color-base;
+    outline: none;
+    &:hover,
+    &:focus {
+      border-color: $color-primary;
+    }
+  }
+
+  button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    color: #fff;
+    background: $background-color;
+    border: 1px solid $color-primary;
+    transition: all 0.2s;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+      background: $color-primary;
+      color: $background-color;
+    }
+    &:disabled {
+      opacity: 0.3;
+      cursor: progress;
+    }
+  }
+}

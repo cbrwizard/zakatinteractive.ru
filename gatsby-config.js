@@ -232,6 +232,12 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://cbrwizard.us15.list-manage.com/subscribe/post?u=218b9ca9467cc314ba7ee2d09&amp;id=5581ee071d',
+      },
+    },
     'gatsby-plugin-catch-links',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-postcss-sass',

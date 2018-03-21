@@ -3,6 +3,7 @@ import Link from 'gatsby-link';
 import moment from 'moment';
 import Disqus from '../Disqus/Disqus';
 import './style.scss';
+import EmailForm from '../EmailForm';
 
 class PostTemplateDetails extends React.Component {
   render() {
@@ -56,6 +57,7 @@ class PostTemplateDetails extends React.Component {
                 <br /> <strong>{author.name}</strong> на Twitter
               </a>
             </p>
+            <EmailForm/>
             {commentsBlock}
           </div>
         </div>
