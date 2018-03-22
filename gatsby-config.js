@@ -118,12 +118,6 @@ module.exports = {
       options: { trackingId: 'UA-114510857-1', head: true }
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [`roboto\:400,400i,500,700`]
-      }
-    },
-    {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./src/assets/favicon.png",
@@ -178,7 +172,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: title,
-        short_name: title,
+        short_name: 'zakat',
         start_url: "/",
         background_color: "#180500",
         theme_color: "#FEC051",
