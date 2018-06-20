@@ -6,17 +6,23 @@ class Links extends React.Component {
   render() {
     const author = this.props.data;
     const links = {
+      email: author.email,
+      facebook: author.facebook,
+      github: author.github,
+      instagram: author.instagram,
       telegram: author.telegram,
       twitter: author.twitter,
-      github: author.github,
       vk: author.vk,
-      facebook: author.facebook,
-      email: author.email
     };
 
     return (
       <div className="links">
         <ul className="links__list">
+          <li className="links__list-item">
+            <a href={`https://www.instagram.com/${links.instagram}`} target="_blank" rel="noopener">
+              <i className="icon-instagram" />
+            </a>
+          </li>
           <li className="links__list-item">
             <a href={`https://www.twitter.com/${links.twitter}`} target="_blank" rel="noopener">
               <i className="icon-twitter" />

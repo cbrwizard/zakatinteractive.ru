@@ -23,7 +23,7 @@ module.exports = {
       instagram: 'cbrwizard',
       name: 'Закат',
       rss: '#',
-      telegram: 'cbrwizard',
+      telegram: 'zakatinteractive',
       twitter: 'zakatru',
       vk: 'zakatinteractive',
     }
