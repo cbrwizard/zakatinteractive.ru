@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     url: 'http://www.zakatinteractive.ru',
     title,
-    subtitle: 'Интерактивная книга с голосовым режимом на русском языке, дающая читателю как и увлекательную историю с продуманными персонажами, так и право выбирать, как дальше будут развиваться события.',
+    subtitle: 'Книга-игра Закат: фантастический сюжет, где ты выбираешь дальнейшее развитие событий! Скоро в инстаграме и телеграме.',
     copyright: '',
     disqusShortname: 'zakatru',
     menu: [
@@ -17,14 +17,15 @@ module.exports = {
       },
     ],
     author: {
-      name: 'Закат',
       email: 'cbrwizard@protonmail.com',
+      facebook: 'zakatinteractive',
+      github: 'cbrwizard',
+      instagram: 'cbrwizard',
+      name: 'Закат',
+      rss: '#',
       telegram: 'cbrwizard',
       twitter: 'zakatru',
-      github: 'cbrwizard',
-      facebook: 'zakatinteractive',
       vk: 'zakatinteractive',
-      rss: '#'
     }
   },
   plugins: [
