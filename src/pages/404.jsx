@@ -38,6 +38,7 @@ export const pageQuery = graphql`
           name
           email
           instagram
+          patreon
           telegram
           twitter
           github

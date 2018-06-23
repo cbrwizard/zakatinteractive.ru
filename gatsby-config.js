@@ -22,6 +22,7 @@ module.exports = {
       github: 'cbrwizard',
       instagram: 'cbrwizard',
       name: 'Закат',
+      patreon: 'cbrwizard',
       rss: '#',
       telegram: 'zakatinteractive',
       twitter: 'zakatru',
